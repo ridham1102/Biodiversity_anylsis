@@ -1,8 +1,8 @@
-# 🌿 Biodiversity Analysis of U.S. National Parks
+# Biodiversity Analysis of U.S. National Parks
 
 This project explores biodiversity in selected U.S. National Parks using species and observation data. It provides insights into the distribution of species across various categories and conservation statuses. The project aims to highlight ecological diversity and conservation priorities through interactive visualizations and statistical summaries.
 
-## 📁 Project Structure
+## Project Structure
 
 - `observations.csv` - Dataset containing species sightings in national parks over a week.
 - `species.csv` - Dataset with detailed taxonomical and conservation information of species.
