@@ -100,6 +100,6 @@ Visualization played a starring role: bar charts compared category distributions
 * **Geospatial Mapping:** Integrate Folium or GeoPandas to create map-based narratives of species distributions.
 * **Predictive Modeling:** Leverage machine learning to forecast species risk levels under climate change scenarios.
 
-I’m Ridham Arora, a final-year BCA student with a passion for data science and wildlife conservation. When I’m not building analyses, you’ll find me lost in a fantasy novel or planning my next travel adventure. If you share an interest in conservation analytics or have ideas for extending this work, I’d love to connect via [LinkedIn]([https://www.linkedin.com/in/ridhamarora](https://www.linkedin.com/in/ridham-arora-24725a2a4/) or email me at [aridham1102@gmail.com](mailto:aridham1102@gmail.com).
+I’m Ridham Arora, a final-year BCA student with a passion for data science and wildlife conservation. When I’m not building analyses, you’ll find me lost in a fantasy novel or planning my next travel adventure. If you share an interest in conservation analytics or have ideas for extending this work, I’d love to connect via [LinkedIn](https://www.linkedin.com/in/ridham-arora-24725a2a4/) or email me at [aridham1102@gmail.com](mailto:aridham1102@gmail.com).
 
 *Made with curiosity and code by Ridham Arora*
