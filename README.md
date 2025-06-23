@@ -1,43 +1,91 @@
-Biodiversity Analysis in National Parks
-Project Overview
-This project analyzes two datasets related to National Parks and their resident species to explore patterns in biodiversity and conservation status. The analysis aims to identify relationships between species observations, their categories, and their conservation status across different national parks.
+# 🌿 Biodiversity Analysis of U.S. National Parks
 
-Data
-The analysis utilizes two datasets:
+This project explores biodiversity in selected U.S. National Parks using species and observation data. It provides insights into the distribution of species across various categories and conservation statuses. The project aims to highlight ecological diversity and conservation priorities through interactive visualizations and statistical summaries.
 
-observations.csv: Contains records of species sightings in various national parks over a one-week period.
-scientific_name: Unique scientific identifier for the species.
-park_name: The national park where the observation occurred.
-observations: The number of times a species was observed in the preceding 7 days.
-species_info.csv: Provides detailed information about species, including classification and conservation status.
-category: Broad taxonomic grouping (e.g., Mammal, Bird).
-scientific_name: Unique scientific identifier for each species.
-common_names: Popular names for the species.
-conservation_status: Conservation status (e.g., Endangered, Species of Concern).
-Note: These datasets were sourced from Codecademy.com and are based on real-world concepts, though the data itself is primarily simulated.
+## 📁 Project Structure
 
-Analysis and Key Findings
-The analysis covered initial data exploration, data cleaning, and in-depth exploration of the data focusing on conservation statuses, species categories, and observations within different parks.
+- `observations.csv` - Dataset containing species sightings in national parks over a week.
+- `species.csv` - Dataset with detailed taxonomical and conservation information of species.
+- `Biodiversity_Analysis.ipynb` - Jupyter Notebook containing all analysis, visualizations, and explanations.
 
-Key findings include:
+---
 
-Consistent Proportions: The relative proportions of observations across different conservation statuses and species categories are remarkably consistent across all national parks, despite variations in total observation counts.
-Observation and Conservation Status Relationship: There is a clear inverse relationship between the severity of a species' conservation status and its average observation count. Species with more critical statuses tend to have fewer observations.
-Category-Specific Risks:
-Mammals show the highest overall risk and the highest proportion of endangered species.
-Birds have the highest proportion of species of concern.
-Aquatic species (Amphibians and Fish) exhibit elevated rates of endangerment and are generally more threatened.
-Plant categories (Vascular and Nonvascular) have the lowest proportion of species at risk.
-Statistical Significance: Statistical tests indicate that Mammals have a significantly higher rate of endangerment compared to Birds, Nonvascular Plants, and Vascular Plants (with over 95% confidence).
-Notebook Structure
-The analysis is structured within a Jupyter Notebook, divided into the following sections:
+## 🎯 Objectives
 
-Initial Data Exploration: Loading and preliminary inspection of the datasets.
-Cleaning the Data: Handling missing values and duplicate entries in both dataframes.
-Exploring the Data:
-Part 1: Analyzing conservation statuses within different parks.
-Part 2: Visualizing proportions of conservation statuses and exploring the relationship with observations.
-Part 3: Investigating conservation statuses within different species categories.
-Part 4: Examining category observations across different parks.
-Statistical Significance Among Endangered Species: Performing statistical tests to determine significant differences in endangerment rates between species categories.
-Summary of Findings and Conclusions: A comprehensive summary of the insights drawn from the analysis.
+- Analyze species diversity across U.S. national parks.
+- Identify species under threat and evaluate their conservation status.
+- Explore relationships between species categories, park locations, and observation frequency.
+- Visualize patterns using graphs for better understanding of biodiversity distribution.
+
+---
+
+## 📊 Dataset Overview
+
+### 🔹 species.csv
+Contains detailed information about each species.
+
+- `category`: Type of organism (e.g., Mammal, Bird, Reptile, etc.)
+- `scientific_name`: Scientific name of the species.
+- `common_names`: Common names for the species.
+- `conservation_status`: Indicates whether a species is endangered, threatened, or of concern.
+
+### 🔹 observations.csv
+Contains observational data about the frequency and location of species sightings.
+
+- `scientific_name`: Scientific name of the species.
+- `park_name`: Name of the national park.
+- `observations`: Number of observations over a one-week period.
+
+---
+
+## 🔍 Key Analyses
+
+- Total unique species across all parks.
+- Distribution of species by category.
+- Number and percentage of protected species.
+- National parks with the highest number of endangered or threatened species.
+- Most observed species per park.
+- Visualization of protection status vs category.
+- Correlation between conservation status and observation frequency.
+
+---
+
+## 📈 Visualizations Used
+
+- Bar Charts
+- Pie Charts
+- Grouped Bar Plots
+- Count Plots
+- Stacked Bar Charts
+
+Libraries used:
+- `pandas` for data manipulation
+- `numpy` for numerical operations
+- `matplotlib` and `seaborn` for data visualization
+
+---
+
+## 🧠 Insights Gained
+
+- Mammals and Birds are the most commonly observed species categories.
+- A significant portion of species lack conservation status, suggesting under-evaluation.
+- Some parks exhibit greater biodiversity but also show a higher number of endangered species.
+- Protection efforts vary by category and park, which can guide future conservation planning.
+
+---
+
+## 🧰 Technologies & Tools
+
+- Python (Jupyter Notebook)
+- pandas, numpy
+- matplotlib, seaborn
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ridham1102/Biodiversity_anylsis.git
+   cd Biodiversity_anylsis
