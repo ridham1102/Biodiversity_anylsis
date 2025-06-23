@@ -10,7 +10,7 @@ This project explores biodiversity in selected U.S. National Parks using species
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Analyze species diversity across U.S. national parks.
 - Identify species under threat and evaluate their conservation status.
@@ -38,7 +38,7 @@ Contains observational data about the frequency and location of species sighting
 
 ---
 
-## 🔍 Key Analyses
+## Key Analyses
 
 - Total unique species across all parks.
 - Distribution of species by category.
@@ -65,7 +65,7 @@ Libraries used:
 
 ---
 
-## 🧠 Insights Gained
+## Insights Gained
 
 - Mammals and Birds are the most commonly observed species categories.
 - A significant portion of species lack conservation status, suggesting under-evaluation.
@@ -74,7 +74,7 @@ Libraries used:
 
 ---
 
-## 🧰 Technologies & Tools
+## Technologies & Tools
 
 - Python (Jupyter Notebook)
 - pandas, numpy
